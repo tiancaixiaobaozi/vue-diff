@@ -33,3 +33,8 @@ diff 算法只比较同层
 
 // diff 会将旧dom的div下子元素直接删除，再放入section
 ```
+
+判断是否为同一节点
+```js
+vnodeOld.key === vnodeNew.key && vnodeOld.sel === vnodeNew.sel
+```
